@@ -1,13 +1,14 @@
-/*este codigo incluye las librerias necesarias*/
+/**
+ *File: 0-positive_or_negative.c
+ * Auth: Jason Ruiz
+ */
 #include <stdlib.h>
 #include <time.h>
 #include<stdio.h>
 
-/*
- *funcion que determina si el numero propuesto es
- * mayor,
- * menor
- * o igual a cero
+/**
+ *main - funcion que determina si el numero propuesto es  mayor,
+ *        menor o igual a cero
  */
 
 int main(void)
