@@ -3,7 +3,7 @@
  *Auth: Jason Ruiz
  */
 #include<stdio.h>
-/**
+/*
  *main - prints alphabet lowercase except q and e
  *Return: 0
  */

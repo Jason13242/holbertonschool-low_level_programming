@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	cha c;
+	char c;
 /**
  *c- this variable stand for  "character"
  *   and takes the value of each letter of the alphabet
