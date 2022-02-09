@@ -1,21 +1,24 @@
-/**
+/*
  *File: 3-print_alphabets.c
  * Auth: Jason Ruiz
  */
+
 #include<stdio.h>
+
 /**
- *main- prints thw alphabet in lower and uppercase.
+ *main - prints thw alphabet in lower and uppercase.
  *Return: 0
  */
+
 int main(void)
 {
 	char cl;
-/**
- *cl - variable declaration for characters lowecase
+/*
+ *cl - variable declaration stands for characters lowercase
  */
 	char cu;
-/**
- *cu - variable declaration for character uppercase
+/*
+ *cu - variable declaration stands for character uppercase
  */
 
 	for (cl = 'a'; cl <= 'z'; cl++)
@@ -26,7 +29,6 @@ int main(void)
 	{
 		putchar(cu);
 	}
-
 	putchar ('\n');
 	return (0);
 }

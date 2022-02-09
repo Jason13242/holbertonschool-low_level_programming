@@ -20,13 +20,13 @@ int main(void)
 
 	for (cl = 'a'; cl <= 'z'; cl++)
 	{
-		putchar("cl");
+		putchar(cl);
 	}
 	for (cu = 'A'; cu <= 'Z'; cu++)
 	{
-		putchar("cu");
+		putchar(cu);
 	}
 
-	putchar("\n");
+	putchar ('\n');
 	return (0);
 }
