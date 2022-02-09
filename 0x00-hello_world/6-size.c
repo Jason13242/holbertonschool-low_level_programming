@@ -1,13 +1,16 @@
-/**
+/*
  * File: 6-size.c
- *Auth: Jason Ruiz
+ * Auth: Jason Ruiz
  */
 
 #include<stdio.h>
+
 /**
- *main - Prints the size of various data types on C.
- *Return: Alway returns 0.
+ * main - Prints the size of various data types on C.
+ *
+ * Return: Alway returns 0.
  */
+
 int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
