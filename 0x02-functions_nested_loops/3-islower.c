@@ -12,7 +12,7 @@
  * Return: 1 if c lowercase, 0 if upper.
  */
 
-int _islower(int)
+int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
