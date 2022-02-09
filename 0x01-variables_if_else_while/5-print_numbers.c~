@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-	int dig;
+	char dig;
 /**
  *dig- this variable will take the value of the digit
  */
 
 	for (dig = '0' ; dig <= '9' ; dig++)
 	{
-		printf(dig);
+		putchar(dig);
 	}
 	putchar ('\n');
 	return (0);

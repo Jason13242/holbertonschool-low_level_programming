@@ -1,16 +1,20 @@
-/**
+/*
  *File: 9-print_comb.c
  *Auth: Jason Ruiz
  */
+
 #include<stdio.h>
+
 /**
  *main - prints all possible combinations
  *       of single-digit numbers.
+ * Return: 0
  */
+
 int main(void)
 {
-/**
- *n- stands for number
+/*
+ *n - stands for number
  *   i.e the number to be printed
  */
 	int n;

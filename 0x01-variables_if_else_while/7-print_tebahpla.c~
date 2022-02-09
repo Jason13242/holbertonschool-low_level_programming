@@ -1,4 +1,4 @@
-/**
+/*
  *File: 7-print_tebahpla.c
  *Auth: Jason Ruiz
  */
@@ -18,6 +18,10 @@ int main(void)
  *c- this variable is suposed to take the value
  *   of each of the characters to be printed.
  */
+
+
+/* c-- - is for reducing the number per iteration */
+
 	for (c = 'z'; c >= 'a' ; c--)
 {
 	putchar(c);

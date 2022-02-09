@@ -14,10 +14,13 @@ int main(void)
 {
 	char c;
 
-/**
+/*
  *c- this variable is suposed to take the value
  *   of each of the characters to be printed.
  */
+
+
+
 	for (c = 'z'; c >= 'a' ; c--)
 {
 	putchar(c);

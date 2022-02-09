@@ -1,18 +1,22 @@
-/**
+/*
  *File: 8-print_base16.c
  *Auth: Jason Ruiz
  */
+
 #include<stdio.h>
+
 /**
- *main- this program prints all the numbers
+ * main - this program prints all the numbers
  *      of base 16 in lowercase, followed by
  *      a new line.
+ * Return: 0
  */
+
 int main(void)
 {
-/**
- *c- is the declared variable that will take
- *   the place of the hexagesimal number.
+/*
+ *c - is the declared variable that will take
+ *    the place of the hexagesimal number.
  */
 	char c;
 
