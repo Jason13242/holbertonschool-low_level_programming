@@ -3,7 +3,7 @@
  *Auth: Jason Ruiz
  */
 
-#include<main.h>
+#include"main.h"
 /**
  * print_alphabet - this functions prints
  *                  the alphabet in lowcase.
