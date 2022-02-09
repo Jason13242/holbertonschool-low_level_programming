@@ -7,7 +7,7 @@
 
 /**
  * print_alphabet_x10 - this functions
- *                      prints 10 times 
+ *                      prints 10 times
  *                      the alphabet
  * Return: 0.
  */
@@ -17,7 +17,7 @@ void print_alphabet_x10(void)
 
 	char l;
 /*
- * l - is a variable that represents 
+ * l - is a variable that represents
  *     each letter to be printed.
  */
 

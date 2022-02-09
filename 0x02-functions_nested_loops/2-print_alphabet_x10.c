@@ -21,7 +21,7 @@ void print_alphabet_x10(void)
  *     each letter to be printed.
  */
 
-	int n;
+	int n = 0;
 /*
  * n - this variable is a counter
  *     that informs how many times
