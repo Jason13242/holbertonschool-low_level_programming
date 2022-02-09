@@ -3,14 +3,13 @@
  *Auth: Jason Ruiz
  */
 
-#include<stdio.h>
 #include<main.h>
 /**
  * print_alphabet - this functions prints
  *                  the alphabet in lowcase.
  */
-	void print_alphabet(void){
-
+	void print_alphabet(void)
+{
 /*
  * c - this variable represents each letter.
  */

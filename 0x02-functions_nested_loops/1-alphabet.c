@@ -3,7 +3,6 @@
  *Auth: Jason Ruiz
  */
 
-#include<stdio.h>
 #include<main.h>
 /**
  * print_alphabet - this functions prints
