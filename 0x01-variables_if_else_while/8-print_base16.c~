@@ -10,6 +10,11 @@
  */
 int main(void)
 {
+/**
+ *c- is the declared variable that will take 
+ *   the place of the hexagesimal number.
+ */
+	char c;
 	for (c = '0' ; c <= '9' ; c++)
 	{
 		putchar (c);
