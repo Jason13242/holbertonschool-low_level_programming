@@ -14,7 +14,22 @@
 
 void jack_bauer(void)
 {
-
+	int w;
+/*
+ * w -  this variable first time slot position.
+ */
+	int x;
+/*
+ * x -  this variable second time slot position.
+ */
+	int y;
+/*
+ * y -  this variable third  time slot position.
+ */
+	int z;
+/*
+ * z - this variable fourth time slot position.
+ */
 	for (w = '0' ; w <= '2' ; w++)
 	{
 		for (x = '0' ; x <= '9' ; x++)
