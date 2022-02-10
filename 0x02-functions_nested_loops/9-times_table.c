@@ -3,50 +3,43 @@
  * Auth: Jason Ruiz
  */
 
-#include"main.h"
+#include "holberton.h"
 
 /**
- * times_table - print the table of nine
- * Return: Always 0
+ * times_table - prints the 9 times table, starting with 0
+ * Return: always 0
  */
 
 void times_table(void)
 {
-	int n;
+	int x, y, z;
 /*
- * n - stands for the number 9 is multiplied by.
+ * z - stands for the result of the operation.
  */
-	int r;
-/*
- * r - stands for the result of 9 * n.
- */
-	int c;
-/*
- * c - stands for counter, it counts that the
- *      whole table is printed 10 times
- */
-	for (c = 0 ; c < 10 ; c++)
+
+	for (x = 0; x < 10; x++)
 	{
-		for (n = 0 ; n <= 9 ; n++)
+		for (y = 0; y < 10; y++)
 		{
-			r = 9 * n;
-			if (r == 0)
+			k = y * x;
+			if (y == 0)
 			{
-				_putchar(r + '0');
+				_putchar(z + '0');
 			}
-			if ((r <= 9) && (r > 0))
+
+			if (z < 10 && y != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
-				_putchar((r % 10) + '0');
+				_putchar(z + '0');
 			}
-			else if (r >= 10)
+			else if (z >= 10)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar((r / 10) + '0');
-				_putchar((r % 10) + '0');
+				_putchar((z / 10) + '0');
+				_putchar((z % 10) + '0');
 			}
 		}
 		_putchar('\n');
