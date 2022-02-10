@@ -9,6 +9,7 @@
 /**
  * print_to_98 - prints all natural numbers
  *               from n to 98
+ * @n: input.
  * Returns: 0;
  */
 
@@ -36,6 +37,6 @@ void print_to_98(int n)
 			printf(", ");
 		}
 	}
-	printf("98");
+/*	printf("98");*/
 	printf("\n");
 }
