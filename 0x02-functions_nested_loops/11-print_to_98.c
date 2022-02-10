@@ -21,7 +21,7 @@ void print_to_98(int n)
 /*
  * e - variable used for equivalence.
  */
-		for (e = n ; e <= 98 ; e++)
+		for (e = n ; e < 98 ; e++)
 		{
 			printf("%d", e);
 			printf(", ");
@@ -37,6 +37,6 @@ void print_to_98(int n)
 			printf(", ");
 		}
 	}
-/*	printf("98");*/
+	printf("98");
 	printf("\n");
 }
