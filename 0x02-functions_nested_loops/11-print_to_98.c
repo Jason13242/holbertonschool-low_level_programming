@@ -32,7 +32,7 @@ void print_to_98(int n)
 
 		for (e = n; e > 98; e--)
 		{
-			prinf("%d", e);
+			printf("%d", e);
 			printf(", ");
 		}
 	}
