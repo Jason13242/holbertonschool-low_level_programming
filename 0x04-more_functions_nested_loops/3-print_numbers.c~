@@ -12,7 +12,7 @@
 
 void print_numbers(void)
 {
-	int n;
+	int n = 48;
 /*
  * n - i.e. the number to be printed.
  */
