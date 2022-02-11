@@ -14,7 +14,7 @@ void print_numbers(void)
 {
 	int n;
 /*
- * n - i.e. the number to be printed. 
+ * n - i.e. the number to be printed.
  */
 
 	for (n = 0 ; n <= 9 ; n++)
