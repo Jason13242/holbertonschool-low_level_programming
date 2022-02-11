@@ -1,27 +1,27 @@
 /*
- * File: 6-print_line.c                                                                                                                                                              * Auth: Jason Ruiz
+ * File: 6-print_line.c
+ * Auth: Jason Ruiz
  */
 
 #include "main.h"
 
-/**                                                                                                                                                                                  * print_line - draws straight line.
- * @c: character to be printed.                                                                                                                                                      * Return: void
+/**
+ * print_line - prints a straight line.
+ * @n: character to be printed.
+ * Return: void
  */
 
 void print_line(int n)
 {
+	int e = 0;
+/*
+ * e - stands for equivalence
+ */
 
-        if (n > '0')
-        {
-                while (n > '0')
-                {
-                        putchar('_');
-                        n--;
-                }
-                putchar('\n');
-        }
-        if (n <= '0')
-        {
-                putchar('\n');
-        }
+	while (e < n && n > 0)
+	{
+		_putchar('_');
+		e++;
+	}
+	_putchar('\n');
 }
