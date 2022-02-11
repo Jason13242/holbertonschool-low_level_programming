@@ -18,14 +18,27 @@ void more_numbers(void)
  */
 	int n;
 /*
- * n - i.e. the number to be printed
- */ 
+ * n - i.e. the number to be printed in 10
+ */
 
-	for (c = '0' ; c <= '10' ; c++)
+	int d;
+/*
+ * d - i.e. the number to be printed in dig.
+ */
+	for (c = '0' ; c <= '9' ; c++)
 	{
-		for (n = '0' ; n <= '14' ; n++)
+		for (n = '0' ; n < '2' ; n++)
 		{
-			putchar(n);
+			for (d = '0' ; d <= 9 ; d++)
+			{
+				if (n == '1' && d < '5')
+				{
+					_putchar(n);
+				}
+				if ((n == '0' && d <= '9') || (n == '1' && d < '5'))
+				{
+					_putchar(d);
+				}
 		}
 	}
 	_putchar('\n');
