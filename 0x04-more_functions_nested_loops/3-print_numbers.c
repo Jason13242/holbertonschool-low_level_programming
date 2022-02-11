@@ -12,14 +12,15 @@
 
 void print_numbers(void)
 {
-	int n;
+	int n = 48;
 /*
  * n - i.e. the number to be printed.
  */
 
-	for (n = '0' ; n <= '9' ; n++)
+	while ((n > 47) && (n < 58))
 	{
 		_putchar(n);
+		n++;
 	}
 	_putchar('\n');
 }
