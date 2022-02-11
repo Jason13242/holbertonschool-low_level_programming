@@ -29,7 +29,7 @@ void more_numbers(void)
 	{
 		for (n = '0' ; n < '2' ; n++)
 		{
-			for (d = '0' ; d <= 9 ; d++)
+			for (d = '0' ; d <= '9' ; d++)
 			{
 				if (n == '1' && d < '5')
 				{
@@ -39,6 +39,7 @@ void more_numbers(void)
 				{
 					_putchar(d);
 				}
+			}
 		}
 	}
 	_putchar('\n');
