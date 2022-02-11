@@ -21,11 +21,11 @@ void print_diagonal(int n)
 /*
  * y - varible that prints the slash
  */
-	if ( n <= 0 )
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
-	else 
+	else
 	{
 		for (x = 1; x <= n; x++)
 		{
