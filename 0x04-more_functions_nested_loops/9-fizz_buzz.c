@@ -2,7 +2,7 @@
  * File: 9-fizz_buzz.c
  * Auth: Jason Ruiz
  */
-
+#include "main.h"
 #include "stdio.h"
 
 /**
