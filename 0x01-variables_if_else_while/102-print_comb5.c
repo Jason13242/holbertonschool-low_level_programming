@@ -18,20 +18,20 @@ int main(void)
 
 	for (w = 0; w <= 9; w++)
 	{
-		for (x = 0; x <= 9; x++)
+		for (x = 0; x <= 8; x++)
 		{
 			for (y = 0; y <= 9; y++)
 			{
 				for (z = 0; z <= 9; z++)
 				{
-					if (!(w == z && y == x))
+					if (!(w == z && x == y))
 					{
 						putchar('0' + w);
 						putchar('0' + x);
 						putchar(' ');
 						putchar('0' + y);
 						putchar('0' + z);
-						if (!(w + x == 18 && y + z == 17 && z == 9))
+						if (!(w + x == 17 && y + z == 18 && y == 9 && z == 9))
 						{
 								putchar(',');
 								putchar(' ');
