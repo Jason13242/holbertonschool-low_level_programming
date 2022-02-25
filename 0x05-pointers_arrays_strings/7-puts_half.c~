@@ -13,34 +13,25 @@
 void puts_half(char *str)
 {
 
-	int x, y, n, z;
+	int x, y, z;
 
 	for (x = 0; str[x] != '\0'; x++)
 	{
-		/*	_putchar(str[x]);*/
+		/*_putchar(str[x]);*/
 	}
-	y = x;
-
-	z = y / 2;
-
-	n = ((y - 1) / 2);
-
-	if (y % 2 == 0)
+	if (x % 2 == 0)
 	{
-		while (y >= z)
+		for ( y = x / 2 ; str[y] != '\0'; y++)
 		{
 			_putchar(str[y]);
-			_putchar(',');
-			_putchar(' ');
-			y--;
 		}
 	}
 	else
 	{
-		while (y >= n)
+		for (z = (x - 1)/2 ; str[z] != '\0' ; z++)
 		{
-			_putchar(str[y]);
-			y--;
+			_putchar(str[z]);
 		}
 	}
+_putchar('\n');
 }
