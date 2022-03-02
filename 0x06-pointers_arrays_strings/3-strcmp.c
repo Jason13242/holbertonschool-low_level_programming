@@ -6,9 +6,10 @@
 #include "main.h"
 
 /**
- * _strcmp - work exactly like strcmp;
+ * _strcmp - compares two strings;
  * @s1: string1;
  * @s2: string2;
+ * Return: less, equal or greater.Comparing s1 to s2.
  */
 
 int _strcmp(char *s1, char *s2)
